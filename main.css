@@ -109,6 +109,8 @@ h3 {
     -ms-transform: scale(1.5) rotate(360deg);
     -o-transform: scale(1.5) rotate(360deg);
 }
+
+
 .first_section {
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
