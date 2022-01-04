@@ -70,7 +70,7 @@ h3 {
     margin-top: 2em;
 }
 
-.first_container a {
+a {
     text-decoration: none;
     font-family: 'Staatliches', cursive;
     font-size: 1.5em;
@@ -124,12 +124,19 @@ h3 {
     margin-top: 3em;
 }
 
-
+.second_section .second_container {
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .second_section {
     display: flex;
 }
 
 .second_section p {
-    margin-left: 0em;
+    margin-left: 0;
 }
 
+.second_section a {
+    margin-left: 0;
+}
