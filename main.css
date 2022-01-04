@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&family=Staatliches&display=swap');
 
 * {
     margin: 0;
@@ -139,4 +139,54 @@ a {
 
 .second_section a {
     margin-left: 0;
+}
+
+.third_section {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.third_section h1 {
+    margin-left: 3%;
+}
+
+.third_section .parent {
+    display: flex;
+}
+
+.third_section .parent p {
+    margin: 0;
+}
+
+.third_section .parent .glassbox h1 {
+    margin-left: 0;
+    font-size: 40px;
+}
+
+.third_section .parent .glassbox {
+    background-color: rgba(219, 143, 56, 0.52);
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 5%;
+    box-shadow: 6px 9px 8px 4px rgba(180, 93, 58, 0.753);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: justify;
+    padding: 2%;
+    border-left: 10px solid;
+}
+
+#left-border {
+    border-image: linear-gradient(yellow, cyan);
+    border-image-slice: 1;
+}
+
+#right-border {
+    border-image: linear-gradient(rgba(255, 0, 0, 0.582), rgb(248, 133, 2));
+    border-image-slice: 1;
 }
