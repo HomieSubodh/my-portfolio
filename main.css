@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    height: 20px;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #0E141A;
+    box-shadow: inset 10px 10px 10px 10px black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgba(197, 252, 1, 0.979), rgb(23, 238, 88), rgb(50, 212, 18));
+}
+
+
 /* @media screen and (max-width: ;) {
 
 } */
