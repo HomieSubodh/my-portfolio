@@ -15,6 +15,10 @@
     color: white;
 }
 
+body {
+    cursor: url('/images/cursor2.png'), auto;
+}
+
 .first_container span::selection {
     color: lightgreen;
 }
@@ -52,7 +56,7 @@ h3 {
     margin-left: .3em;
 }
 
-.first_section .first_container h3, p {
+.first_section h3, p {
     margin-left: 1.2em;
 }
 
@@ -63,6 +67,7 @@ h3 {
 
 .first_section .image_container img {
     width: 80%;
+    margin-top: 2em;
 }
 
 .first_container a {
@@ -110,9 +115,21 @@ h3 {
     -o-transform: scale(1.5) rotate(360deg);
 }
 
-
 .first_section {
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
+}
+
+.second_section {
+    margin-top: 3em;
+}
+
+
+.second_section {
+    display: flex;
+}
+
+.second_section p {
+    margin-left: 0em;
 }
 
