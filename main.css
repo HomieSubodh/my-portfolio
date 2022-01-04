@@ -10,6 +10,15 @@
 
 } */
 
+::selection {
+    background-color: rgba(241, 96, 12, 0.808);
+    color: white;
+}
+
+.first_container span::selection {
+    color: lightgreen;
+}
+
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
@@ -47,8 +56,12 @@ h3 {
     margin-left: 1.2em;
 }
 
+.half_width {
+    width: 50%;
+    padding-left: 5%;
+}
 
 .first_section .image_container img {
-    height: 700px;
-    width: 700px;
+    width: 80%;
 }
+
