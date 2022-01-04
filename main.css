@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-    cursor: url('/images/cursor2.png'), auto;
+    cursor: url('images/cursor2.png'), auto;
 }
 
 h1 span::selection {
