@@ -35,9 +35,9 @@ h3 {
     display: flex;
 }
 
-/* .first_section .first_container {
-    padding-left: 100px;
-} */
+.first_section .first_container h1, h3, p{
+    margin-left: 1.2em;
+}
 
 
 .first_section .image_container img {
