@@ -83,13 +83,34 @@ h3 {
     -ms-transition: .5s;
     -o-transition: .5s;
     margin-left: 1em;
+    box-shadow: 2px 2px 8px 2px #b85f54c2;
+}
+
+.first_container a i {
+    margin-right: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 
 .first_container a:hover {
-    color: black;
+    color: lightgreen;
+    text-decoration: underline;
 }
 
+.first_container a:hover i {
+    color: lightgreen;
+    margin-right: 20px;
+    transform: scale(1.5) rotate(360deg);
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -moz-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+}
 .first_section {
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
 }
+
