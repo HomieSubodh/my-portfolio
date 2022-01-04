@@ -35,7 +35,15 @@ h3 {
     display: flex;
 }
 
-.first_section .first_container h1, h3, p{
+.first_section .first_container {
+    padding-top: 2em;
+}
+
+.first_section .first_container h1{
+    margin-left: .3em;
+}
+
+.first_section .first_container h3, p {
     margin-left: 1.2em;
 }
 
