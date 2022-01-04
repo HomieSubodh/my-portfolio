@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&family=Staatliches&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* @media screen and (max-width: ;) {
+
+} */
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+h1 span {
+    color: orange;
+    text-decoration: underline;
+}
+
+h3, p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2em;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(75, 74, 74);
+}
+
+.first_section {
+    display: flex;
+}
+
+/* .first_section .first_container {
+    padding-left: 100px;
+} */
+
+
+.first_section .image_container img {
+    height: 700px;
+    width: 700px;
+}
