@@ -65,3 +65,31 @@ h3 {
     width: 80%;
 }
 
+.first_container a {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    background-image: linear-gradient(rgba(235, 71, 22, 0.966), rgba(233, 94, 39, 0.733));
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    margin-left: 1em;
+}
+
+.first_container a:hover {
+    color: black;
+}
+
+.first_section {
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
