@@ -19,7 +19,7 @@ body {
     cursor: url('/images/cursor2.png'), auto;
 }
 
-.first_container span::selection {
+h1 span::selection {
     color: lightgreen;
 }
 
